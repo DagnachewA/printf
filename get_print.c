@@ -5,7 +5,7 @@
  * @s: char that contains the convo specifier.
  * Description: The function iterates through an array struct func_arr[]
  * to find a match between the specifier passed to  _printf  and first element
- *  of each struct. It then selects the appropriate printing function match.
+ * of each struct. It then selects the appropriate printing function match.
  * Return: A pointer to printing function that matches conversion specifier.
  */
 int (*get_print(char s))(va_list, flags_t *)
