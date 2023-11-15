@@ -54,7 +54,8 @@ void print_number(int n)
 	_putchar((n1 % 10) + '0');
 }
 /**
- * count_digit - This function calculates and returns the count of digits in an integer.
+ * count_digit - This function calculates
+ * and returns the count of digits in an integer.
  * for _printf
  * @i: int being evaluated
  * Return: count

@@ -3,7 +3,9 @@
  * print_hex - number in hex base,in lowercase
  * @l: va_list args from _printf
  * @f: pointer to the struct flags
- * Description: The function invokes the  `convert()`  function, which in turn converts the input number to the appropriate base and returns it as a string.
+ * Description: The function invokes the  `convert()`
+ * function, which in turn converts the input number
+ * to the appropriate base and returns it as a string.
  * Return: num of char
  */
 int print_hex(va_list l, flags_t *f)
@@ -21,7 +23,9 @@ int print_hex(va_list l, flags_t *f)
  * print_hex_big - number in hex base,in uppercase
  * @l: va_list args from _printf
  * @f: pointer to the struct flag
- * Description: The function invokes the  `convert()`  function, which in turn converts the input number to the appropriate base and returns it as a string.
+ * Description: The function invokes the  `convert()`
+ * function, which in turn converts the input number
+ * to the appropriate base and returns it as a string.
  * Return: num of char
  */
 int print_hex_big(va_list l, flags_t *f)
@@ -39,7 +43,9 @@ int print_hex_big(va_list l, flags_t *f)
  * print_binary - number in base 2
  * @l: va_list args from _printf
  * @f: pointer to the struct flag
- * Description: The function invokes the  `convert()`  function, which in turn converts the input number to the appropriate base and returns it as a string.g
+ * Description: The function invokes the  `convert()`  function,
+ * which in turn converts the input number to the appropriate
+ * base and returns it as a string.g
  * Return: num of char
  */
 int print_binary(va_list l, flags_t *f)
@@ -54,7 +60,9 @@ int print_binary(va_list l, flags_t *f)
  * print_octal - number printed in base 8
  * @l: va_list args from _printf
  * @f: pointer to the struct flag
- * Description: The function invokes the  `convert()`  function, which in turn converts the input number to the appropriate base and returns it as a string.
+ * Description: The function invokes the  `convert()`
+ * function, which in turn converts the input number to
+ * the appropriate base and returns it as a string.
  * Return: num of char
  */
 int print_octal(va_list l, flags_t *f)

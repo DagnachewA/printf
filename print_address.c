@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_address - This function prints the hexadecimal format of the input address.
+ * print_address - prints hexadecimal format of the input address.
  * @l: va_list args from _printf
  * @f: pointer to the struct flags
  * Return: num of char
